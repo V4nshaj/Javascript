@@ -29,4 +29,4 @@ console.log('19' - '13' + 17); // -> 23
 console.log('123' < 57); // -> false
 console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 1143
 
-prompt('How many neighbour countries does your contry have?');
+prompt('How many neighbour countries does your contry have?');//prompts takes user input
