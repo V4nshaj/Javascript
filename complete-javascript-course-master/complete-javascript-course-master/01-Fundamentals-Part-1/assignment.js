@@ -29,4 +29,64 @@ console.log('19' - '13' + 17); // -> 23
 console.log('123' < 57); // -> false
 console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 1143
 
-// p rompt('How many neighbour countries does your contry have?');//prompts takes user input
+const neighbour = prompt('How many neighbour countries does your contry have?');//prompts takes user input
+if(neighbour == 1)
+{
+  console.log("Only one border");
+}
+else if(neighbour>1)
+{
+  console.log( 'More than 1 border');
+}
+else{
+  console.log( 'No borders');
+}
+
+const neighbor = prompt('How many neighbour countries does your contry have?');//prompts takes user input
+if(neighbor === 1)
+{
+  console.log("Only one border");
+}
+else if(neighbor>1)
+{
+  console.log( 'More than 1 border');
+}
+else{
+  console.log( 'No borders');
+}
+
+const border = Number(prompt('How many neighbour countries does your contry have?'));//prompts takes user input
+if(border === 1)
+{
+  console.log("Only one border");
+}
+else if(border>1)
+{
+  console.log( 'More than 1 border');
+}
+else{
+  console.log( 'No borders');
+}
+
+
+const lang = 'hindi';
+switch (lang) {
+    case 'hindi':
+        console.log('1st place');
+        break;
+    case 'spanish':
+        console.log('2nd place in number of native speakers');
+        break;
+    case 'chinese':
+    case 'mandarin':
+        console.log('MOST number of native speakers!');
+        break;
+    case 'english':
+      console.log('3rd place');
+      break;
+    case 'arabic':
+      console.log('5th most spoken language');
+    default:
+        console.log('Great language too :D');
+        break;
+}
