@@ -1,3 +1,4 @@
+//windows+. to add emoji
 /*aalert function show error in code runner
 aalert function is used in browser it does not show any error while working in browser*/
 alert("hello World")

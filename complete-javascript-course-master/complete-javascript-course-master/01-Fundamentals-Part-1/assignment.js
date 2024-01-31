@@ -1,3 +1,4 @@
+//windows+. to add emoji
 console.log("This is the new javascript ");
 let continent = 'Asia';
 let population = 11;
