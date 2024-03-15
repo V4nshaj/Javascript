@@ -4,8 +4,11 @@ function cutFruitPieces(fruit){
 }
 function fruitProcessor(apples, oranges)
 {
-    const applePieces
+    const applePieces = cutFruitPieces(apples);
+    const orangePieces = cutFruitPieces(oranges);
     console.log(apples, oranges);
-    const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+    const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges`;
     return juice;
 }
+
+console.log(fruitProcessor(2,3));
